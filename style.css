@@ -7,13 +7,11 @@ body {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    background-color: #F4EBDC;
+    color: #232124
 }
 section {
     padding: 60px 40px;
-}
-
-section:nth-child(even) {
-    background-color: #f2f2f2;
 }
 
 .container {
@@ -31,8 +29,70 @@ nav ul {
     gap: 10px;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.main_nav {
+position: absolute;
+width: 70px;
+height: 47px;
+left: 751px;
+top: 54px;
+
+font-family: 'Clash Display';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+display: flex;
+align-items: center;
+}
+
+.home_button {
+box-sizing: border-box;
+
+width: 107px;
+height: 44px;
+left: 208px;
+top: 56px;
+
+border: 1px solid #232124;
+border-radius: 50%
+}
+
+.header {
+    background-color: #92A35B;
+}
+
+.hello_mh {
+position: absolute;
+width: 624px;
+height: 271px;
+left: 173px;
+top: 821px;
+
+font-family: 'Coconat';
+font-style: normal;
+font-weight: 900;
+font-size: 150px;
+line-height: 207px;
+display: flex;
+align-items: center;
+
+color: #6C7C49;
+
+transform: rotate(-89.96deg);
+}
+
+.gallery {
+    background-color: #E86D40;
+    border: 3px solid #232124
+}
+
 footer {
-    background-color: #000;
-    color: #fff;
+    background-color: #232124;
+    color: #F4EBDC;
     padding: 10px;
 }
