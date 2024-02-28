@@ -1,5 +1,11 @@
 /* CSS GOES HERE */
 
+@font-face {
+    font-family: Coconat;
+    src: url(coconat-bold.woff2);
+    font-weight: bold;
+  }
+
 body {
     margin: 0;
     padding: 0;
@@ -29,17 +35,140 @@ nav ul {
     gap: 10px;
 }
 
+footer {
+    background-color: #232124;
+    padding: 10px;
+}
+
 a {
     color: inherit;
     text-decoration: none;
 }
 
+h2 {
+    font-family: 'Coconat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 138px;
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+font-family: 'Clash Display';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 37px;
+display: flex;
+align-items: left;
+}
+
+p {
+font-family: 'Clash Display';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 31px;
+display: flex;
+align-items: left;
+}
+
+.star {
+    width: 60px;
+    height: 59.55px;
+    left: 1135px;
+    top: 6556px;
+
+    color: #E86D40;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
 .main_nav {
-position: absolute;
-width: 70px;
-height: 47px;
-left: 751px;
-top: 54px;
+    position: absolute;
+    width: 70px;
+    height: 47px;
+    left: 751px;
+    top: 54px;
+
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.home_button {
+    box-sizing: border-box;
+
+    width: 107px;
+    height: 44px;
+    left: 208px;
+    top: 56px;
+
+    border: 1px solid #232124;
+    border-radius: 50%
+}
+
+.header {
+    background-color: #92A35B;
+    display: flex;
+    flex-flow: row;
+}
+
+.hello_mh {
+    width: 624px;
+    height: 271px;
+    left: 173px;
+    top: 821px;
+
+    font-family: 'Coconat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 207px;
+    display: flex;
+    align-items: center;
+
+    color: #6C7C49;
+
+    transform: rotate(-89.96deg);
+}
+
+.right_mh {
+    width: 592px;
+    height: 549px;
+    left: 596px;
+    top: 234px;
+
+    font-family: 'Coconat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 150px;
+    line-height: 207px;
+    display: flex;
+    flex-flow: column;
+    align-items: left;
+}
+
+.gallery {
+    background-color: #E86D40;
+    border: 3px solid #232124
+}
+
+.footer {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 377px;
 
 font-family: 'Clash Display';
 font-style: normal;
@@ -48,51 +177,6 @@ font-size: 20px;
 line-height: 25px;
 display: flex;
 align-items: center;
-}
 
-.home_button {
-box-sizing: border-box;
-
-width: 107px;
-height: 44px;
-left: 208px;
-top: 56px;
-
-border: 1px solid #232124;
-border-radius: 50%
-}
-
-.header {
-    background-color: #92A35B;
-}
-
-.hello_mh {
-position: absolute;
-width: 624px;
-height: 271px;
-left: 173px;
-top: 821px;
-
-font-family: 'Coconat';
-font-style: normal;
-font-weight: 900;
-font-size: 150px;
-line-height: 207px;
-display: flex;
-align-items: center;
-
-color: #6C7C49;
-
-transform: rotate(-89.96deg);
-}
-
-.gallery {
-    background-color: #E86D40;
-    border: 3px solid #232124
-}
-
-footer {
-    background-color: #232124;
-    color: #F4EBDC;
-    padding: 10px;
+color: #F4EBDC;
 }
