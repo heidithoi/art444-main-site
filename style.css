@@ -1,10 +1,28 @@
 /* CSS GOES HERE */
 
 @font-face {
-    font-family: Coconat;
-    src: url(coconat-bold.woff2);
-    font-weight: bold;
+    font-family: "Coconat";
+    src: url("coconat-bold.woff2") format("woff2");
+    font-weight: 900; /* Bold */
   }
+
+  @font-face {
+    font-family: "ClashDisplay";
+    src: url("Fonts/Clash Display/ClashDisplay-Medium.eot") format("eot"),
+         url("Fonts/Clash Display/ClashDisplay-Medium.ttf") format("ttf"),
+         url("Fonts/Clash Display/ClashDisplay-Medium.woff") format("woff"),
+         url("Fonts/Clash Display/ClashDisplay-Medium.woff2") format("woff2");
+    font-weight: 500; /* Medium */
+}
+
+@font-face {
+    font-family: "ClashDisplay";
+    src: url("Fonts/Clash Display/ClashDisplay-Regular.eot") format("eot"),
+         url("Fonts/Clash Display/ClashDisplay-Regular.ttf") format("ttf"),
+         url("Fonts/Clash Display/ClashDisplay-Regular.woff") format("woff"),
+         url("Fonts/Clash Display/ClashDisplay-Regular.woff2") format("woff2");
+    font-weight: 400; /* Regular */
+}
 
 body {
     margin: 0;
@@ -48,39 +66,31 @@ a {
 h2 {
     font-family: 'Coconat';
     font-style: normal;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 100px;
     line-height: 138px;
-    display: flex;
-    align-items: center;
+    text-align: center;
 }
 
 h3 {
-font-family: 'Clash Display';
-font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 37px;
-display: flex;
-align-items: left;
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: left;
 }
 
 p {
-font-family: 'Clash Display';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 31px;
-display: flex;
-align-items: left;
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: left;
 }
 
 .star {
-    width: 60px;
-    height: 59.55px;
-    left: 1135px;
-    top: 6556px;
-
     color: #E86D40;
 }
 
@@ -122,39 +132,51 @@ align-items: left;
     flex-flow: row;
 }
 
-.hello_mh {
-    width: 624px;
-    height: 271px;
-    left: 173px;
-    top: 821px;
-
+.column-container {
+    display: flex;
+    justify-content: center;
+    column-count: 2;
+    column-gap: 152px;
+  }
+  
+  .column-content {
     font-family: 'Coconat';
     font-style: normal;
     font-weight: 900;
     font-size: 150px;
     line-height: 207px;
-    display: flex;
-    align-items: center;
+  }
 
+.hello_mh {
     color: #6C7C49;
 
     transform: rotate(-89.96deg);
 }
 
 .right_mh {
-    width: 592px;
-    height: 549px;
-    left: 596px;
-    top: 234px;
+   text-align: left;
+}
 
-    font-family: 'Coconat';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 150px;
-    line-height: 207px;
+.heidi_mh {
     display: flex;
-    flex-flow: column;
-    align-items: left;
+    align-items: center;
+
+    box-sizing: border-box;
+
+    width: 822px;
+    height: 226px;
+    left: 464px;
+    top: 396px;
+
+    border: 2px solid #232124;
+    border-radius: 50%;
+}
+
+.column-container-about {
+    display: flex;
+    justify-content: center;
+    column-count: 2;
+    column-gap: 36px;
 }
 
 .gallery {
@@ -162,21 +184,28 @@ align-items: left;
     border: 3px solid #232124
 }
 
+.image {
+    box-sizing: border-box;
+
+    border: 2px solid #232124;
+    border-radius: 79px;
+}
+
 .footer {
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-gap: 377px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 377px;
 
-font-family: 'Clash Display';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-display: flex;
-align-items: center;
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
 
-color: #F4EBDC;
+    color: #F4EBDC;
 }
