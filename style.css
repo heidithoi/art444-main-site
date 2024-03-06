@@ -139,13 +139,13 @@ p {
     column-gap: 152px;
   }
   
-  .column-content {
+.column-content {
     font-family: 'Coconat';
     font-style: normal;
     font-weight: 900;
     font-size: 150px;
     line-height: 207px;
-  }
+}
 
 .hello_mh {
     color: #6C7C49;
@@ -179,9 +179,24 @@ p {
     column-gap: 36px;
 }
 
+.about_text {
+    text-align: left;
+}
+
 .gallery {
     background-color: #E86D40;
     border: 3px solid #232124
+}
+
+.gallery-column-container {
+    display: flex;
+    justify-content: center;
+    column-count: 2;
+    column-gap: 21px;
+  }
+
+.work1 {
+    
 }
 
 .image {
@@ -208,4 +223,9 @@ p {
     align-items: center;
 
     color: #F4EBDC;
+}
+
+.copyright {
+    display: flex;
+    flex-flow: row;
 }
