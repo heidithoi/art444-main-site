@@ -99,12 +99,6 @@ p {
 }
 
 .main_nav {
-    position: absolute;
-    width: 70px;
-    height: 47px;
-    left: 751px;
-    top: 54px;
-
     font-family: 'Clash Display';
     font-style: normal;
     font-weight: 400;
@@ -112,6 +106,7 @@ p {
     line-height: 25px;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
 }
 
 .home_button {
@@ -194,10 +189,6 @@ p {
     column-count: 2;
     column-gap: 21px;
   }
-
-.work1 {
-    
-}
 
 .image {
     box-sizing: border-box;
