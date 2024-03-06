@@ -8,19 +8,19 @@
 
 @font-face {
     font-family: 'ClashDisplay';
-    src: url("./Fonts/Clash Display/ClashDisplay-Medium.eot") format("eot"),
-         url("./Fonts/Clash Display/ClashDisplay-Medium.ttf") format("ttf"),
-         url("./Fonts/Clash Display/ClashDisplay-Medium.woff") format("woff"),
-         url("./Fonts/Clash Display/ClashDisplay-Medium.woff2") format("woff2");
+    src: url("/Users/heidithoi/Desktop/art444-main-site/Fonts/Clash Display/ClashDisplay-Medium.eot") format("eot"),
+         url("/Users/heidithoi/Desktop/art444-main-site/Fonts/Clash Display/ClashDisplay-Medium.ttf") format("ttf"),
+         url("/Users/heidithoi/Desktop/art444-main-site/Fonts/Clash Display/ClashDisplay-Medium.woff") format("woff"),
+         url("/Users/heidithoi/Desktop/art444-main-site/Fonts/Clash Display/ClashDisplay-Medium.woff2") format("woff2");
     font-weight: 500; /* Medium */
 }
 
 @font-face {
     font-family: 'ClashDisplay';
-    src: url("./Fonts/Clash Display/ClashDisplay-Regular.eot") format("eot"),
-         url("./Fonts/Clash Display/ClashDisplay-Regular.ttf") format("ttf"),
-         url("./Fonts/Clash Display/ClashDisplay-Regular.woff") format("woff"),
-         url("./Fonts/Clash Display/ClashDisplay-Regular.woff2") format("woff2");
+    src: url("/Users/heidithoi/Desktop/art444-main-site/Fonts/Clash Display/ClashDisplay-Regular.eot") format("eot"),
+         url("/Users/heidithoi/Desktop/art444-main-site/Fonts/Clash Display/ClashDisplay-Regular.ttf") format("ttf"),
+         url("/Users/heidithoi/Desktop/art444-main-site/Fonts/Clash Display/ClashDisplay-Regular.woff") format("woff"),
+         url("/Users/heidithoi/Desktop/art444-main-site/Fonts/Clash Display/ClashDisplay-Regular.woff2") format("woff2");
     font-weight: 400; /* Regular */
 }
 
