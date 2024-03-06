@@ -1,13 +1,13 @@
 /* CSS GOES HERE */
 
 @font-face {
-    font-family: "Coconat";
+    font-family: 'Coconat';
     src: url("coconat-bold.woff2") format("woff2");
     font-weight: 900; /* Bold */
   }
 
-  @font-face {
-    font-family: "ClashDisplay";
+@font-face {
+    font-family: 'ClashDisplay';
     src: url("Fonts/Clash Display/ClashDisplay-Medium.eot") format("eot"),
          url("Fonts/Clash Display/ClashDisplay-Medium.ttf") format("ttf"),
          url("Fonts/Clash Display/ClashDisplay-Medium.woff") format("woff"),
@@ -16,7 +16,7 @@
 }
 
 @font-face {
-    font-family: "ClashDisplay";
+    font-family: 'ClashDisplay';
     src: url("Fonts/Clash Display/ClashDisplay-Regular.eot") format("eot"),
          url("Fonts/Clash Display/ClashDisplay-Regular.ttf") format("ttf"),
          url("Fonts/Clash Display/ClashDisplay-Regular.woff") format("woff"),
@@ -107,6 +107,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    margin-right: 50px;
 }
 
 .home_button {
