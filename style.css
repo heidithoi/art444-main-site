@@ -127,8 +127,6 @@ p {
 
 .header {
     background-color: #92A35B;
-    display: flex;
-    flex-flow: row;
 }
 
 .column-container {
@@ -136,6 +134,7 @@ p {
     justify-content: center;
     column-count: 2;
     column-gap: 152px;
+    margin-top: 80px;
   }
   
 .column-content {
@@ -153,7 +152,6 @@ p {
 
 .right_mh {
    text-align: left;
-   margin-bottom: 43px;
 }
 
 .heidi_mh {
