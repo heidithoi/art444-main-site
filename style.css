@@ -99,6 +99,7 @@ p {
 }
 
 .main_nav {
+    background-color: #92A35B;
     font-family: 'Clash Display';
     font-style: normal;
     font-weight: 400;
@@ -119,7 +120,10 @@ p {
     top: 56px;
 
     border: 1px solid #232124;
-    border-radius: 50%
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
 
 .header {
@@ -177,6 +181,29 @@ p {
 
 .about_text {
     text-align: left;
+}
+
+#skills {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+}
+
+.tskills {
+    box-sizing: border-box;
+
+    width: 248.74px;
+    height: 71px;
+
+    border: 2px solid #232124;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
 
 .gallery {
