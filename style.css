@@ -26,8 +26,26 @@
 
 @font-face {
     font-family: 'Coconat';
-    src: url('coconat-bold.woff2') format('woff2');
+    src: url('Fonts/Coconat-Bold.woff2') format('woff2');
     font-weight: 900; /* Bold */
+}
+
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('Fonts/Clash Display/ClashDisplay-Medium.eot') format('eot');
+    src: url('Fonts/Clash Display/ClashDisplay-Medium.ttf') format('ttf');
+    src: url('Fonts/Clash Display/ClashDisplay-Medium.woff') format('woff');
+    src: url('Fonts/Clash Display/ClashDisplay-Medium.woff2') format('woff2');
+    font-weight: 500; /* Medium */
+}
+
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('Fonts/Clash Display/ClashDisplay-Regular.eot') format('eot');
+    src: url('Fonts/Clash Display/ClashDisplay-Regular.ttf') format('ttf');
+    src: url('Fonts/Clash Display/ClashDisplay-Regular.woff') format('woff');
+    src: url('Fonts/Clash Display/ClashDisplay-Regular.woff2') format('woff2');
+    font-weight: 400; /* Regular */
 }
 
 body {
@@ -71,7 +89,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Clash Display';
+    font-family: 'ClashDisplay';
     font-style: normal;
     font-weight: 500;
     font-size: 27px;
@@ -80,7 +98,7 @@ h3 {
 }
 
 p {
-    font-family: 'Clash Display';
+    font-family: 'ClashDisplay';
     font-style: normal;
     font-weight: 400;
     font-size: 22.5px;
@@ -115,7 +133,7 @@ nav ul {
 
 #main_nav {
     background-color: #92A35B;
-    font-family: 'Clash Display';
+    font-family: 'ClashDisplay';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -200,7 +218,7 @@ nav ul {
 
 /* <!-- Skills Section -->  */
 #skills {
-    font-family: 'Clash Display';
+    font-family: 'ClashDisplay';
     font-style: normal;
     font-weight: 500;
     font-size: 27px;
@@ -210,7 +228,7 @@ nav ul {
 }
 
 .technical {
-    font-family: Coconat;
+    font-family: 'Coconat';
     font-size: 35px;
     font-style: normal;
     font-weight: 900;
@@ -232,7 +250,7 @@ nav ul {
 }
 
 .personal {
-    font-family: Coconat;
+    font-family: 'Coconat';
     font-size: 35px;
     font-style: normal;
     font-weight: 900;
@@ -291,7 +309,7 @@ footer {
     align-items: center;
     gap: 377px;
 
-    font-family: 'Clash Display';
+    font-family: 'ClashDisplay';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
