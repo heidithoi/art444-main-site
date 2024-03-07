@@ -108,7 +108,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 50px;
 }
 
 .home_button {
@@ -143,8 +142,7 @@ p {
     font-family: 'Coconat';
     font-style: normal;
     font-weight: 900;
-    font-size: 150px;
-    line-height: 207px;
+    font-size: 100px;
 }
 
 .hello_mh {
@@ -159,14 +157,13 @@ p {
 
 .heidi_mh {
     display: flex;
+    justify-content: center; 
     align-items: center;
 
     box-sizing: border-box;
 
     width: 822px;
     height: 226px;
-    left: 464px;
-    top: 396px;
 
     border: 2px solid #232124;
     border-radius: 50%;
@@ -193,6 +190,14 @@ p {
     align-items: center;
 }
 
+.technical {
+    font-family: Coconat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
 .tskills {
     box-sizing: border-box;
 
@@ -201,9 +206,22 @@ p {
 
     border: 2px solid #232124;
     border-radius: 50%;
+    
     display: flex;
     justify-content: center; 
     align-items: center;
+}
+
+.personal {
+    font-family: Coconat;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.pskills {
+
 }
 
 .gallery {
