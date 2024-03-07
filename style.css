@@ -49,6 +49,7 @@ nav ul {
     list-style: none;
     display: flex;
     flex-flow: row;
+    justify-content: center;
     gap: 38px;
 }
 
@@ -97,7 +98,7 @@ p {
     display: none;
 }
 
-.main_nav {
+#main_nav {
     background-color: #92A35B;
     font-family: 'Clash Display';
     font-style: normal;
@@ -152,6 +153,7 @@ p {
 
 .right_mh {
    text-align: left;
+   margin-bottom: 43px;
 }
 
 .heidi_mh {
@@ -223,7 +225,7 @@ p {
 
 }
 
-.gallery {
+#gallery {
     background-color: #E86D40;
     border: 3px solid #232124
 }
