@@ -203,26 +203,35 @@ nav ul {
     align-items: center;
 }
 
+/* .technical_section {
+    display: flex;
+    justify-content: center;
+    column-count: 2;
+} */
+
 .technical {
     font-family: 'Coconat';
     font-size: 35px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    /* transform: rotate(-90deg); */
 }
 
 .tskills {
     box-sizing: border-box;
 
-    width: 248.74px;
-    height: 71px;
+    width: 224px;
+    height: 64px;
 
     border: 2px solid #232124;
     border-radius: 50%;
     
-    display: flex;
+    display: inline-flex;
     justify-content: center; 
     align-items: center;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 .personal {
@@ -234,7 +243,7 @@ nav ul {
 }
 
 .pskills {
-
+    display: block;
 }
 
 /* <!-- Gallery Section -->  */
