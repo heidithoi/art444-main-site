@@ -34,6 +34,7 @@ body {
     background-color: #F4EBDC;
     color: #232124
 }
+
 section {
     padding: 60px 40px;
 }
@@ -43,19 +44,6 @@ section {
     max-width: 960px;
     text-align: center;
     margin: 0 auto;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    gap: 38px;
-}
-
-footer {
-    background-color: #232124;
-    padding: 10px;
 }
 
 a {
@@ -94,6 +82,22 @@ p {
     color: #E86D40;
 }
 
+.image {
+    box-sizing: border-box;
+
+    border: 2px solid #232124;
+    border-radius: 79px;
+}
+
+/* <!-- Main Navigation -->  */
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    gap: 38px;
+}
+
 .hamburger-menu {
     display: none;
 }
@@ -125,6 +129,7 @@ p {
     margin-right: 436px;
 }
 
+/* <!-- Main Header -->  */
 .header {
     background-color: #92A35B;
 }
@@ -168,6 +173,7 @@ p {
     border-radius: 50%;
 }
 
+/* <!-- About Section -->  */
 .column-container-about {
     display: flex;
     justify-content: center;
@@ -179,6 +185,7 @@ p {
     text-align: left;
 }
 
+/* <!-- Skills Section -->  */
 #skills {
     font-family: 'Clash Display';
     font-style: normal;
@@ -223,6 +230,7 @@ p {
 
 }
 
+/* <!-- Gallery Section -->  */
 #gallery {
     background-color: #E86D40;
     border: 3px solid #232124
@@ -233,13 +241,15 @@ p {
     justify-content: center;
     column-count: 2;
     column-gap: 21px;
-  }
+}
 
-.image {
-    box-sizing: border-box;
+/* <!-- Contact Section -->  */
 
-    border: 2px solid #232124;
-    border-radius: 79px;
+
+/* <!-- Footer -->  */
+footer {
+    background-color: #232124;
+    padding: 10px;
 }
 
 .footer {
