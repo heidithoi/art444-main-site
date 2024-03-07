@@ -80,6 +80,7 @@ p {
 
 .star {
     color: #E86D40;
+    font-size: 40px;
 }
 
 .image {
@@ -241,6 +242,24 @@ nav ul {
     justify-content: center;
     column-count: 2;
     column-gap: 21px;
+}
+
+/* <!-- FAQs Section -->  */
+
+.faqs {
+    box-sizing: border-box;
+    border-radius: 79px;
+    border: 2px solid #232124;
+
+    margin-bottom: 15px;
+
+    padding: 30px;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.faqs_star {
 }
 
 /* <!-- Contact Section -->  */
