@@ -51,6 +51,10 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    margin: 0;
+}
+
 h2 {
     font-family: 'Coconat';
     font-style: normal;
@@ -112,7 +116,7 @@ nav ul {
     line-height: 25px;
     display: flex;
     justify-content: center;
-    padding: 35px;
+    padding-top: 35px;
 }
 
 .home_button {
@@ -139,9 +143,9 @@ nav ul {
 .column-container {
     display: flex;
     justify-content: center;
+    align-items: center;
     column-count: 2;
     column-gap: 50px;
-    margin-top: 50px;
   }
   
 .column-content {
@@ -150,6 +154,29 @@ nav ul {
     font-weight: 900;
     font-size: 90px;
 }
+
+/* .right_mh_container {
+    display: flex;
+    align-items: baseline;
+  }
+  
+h1 {
+    margin: 0;
+  }
+  
+  .with-border {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    
+    box-sizing: border-box;
+
+    width: 822px;
+    height: 226px;
+
+    border: 2px solid #232124;
+    border-radius: 50%;
+  } */
 
 .hello_mh {
     color: #6C7C49;
@@ -179,6 +206,7 @@ nav ul {
 .column-container-about {
     display: flex;
     justify-content: center;
+    align-items: flex-end;
     column-count: 2;
     column-gap: 36px;
 }
