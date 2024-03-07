@@ -106,7 +106,7 @@ p {
     font-size: 20px;
     line-height: 25px;
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .home_button {
