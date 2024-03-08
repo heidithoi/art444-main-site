@@ -84,14 +84,7 @@ p {
 
 .star {
     color: #E86D40;
-    font-size: 50px;
-}
-
-.image {
-    box-sizing: border-box;
-
-    border: 2px solid #232124;
-    border-radius: 79px;
+    font-size: 60px;
 }
 
 /* <!-- Main Navigation -->  */
@@ -188,6 +181,12 @@ nav ul {
     column-gap: 36px;
 }
 
+.aimage {
+    box-sizing: border-box;
+    border: 2px solid #232124;
+    border-radius: 79px;
+}
+
 .about_text {
     text-align: left;
 }
@@ -254,8 +253,8 @@ nav ul {
     transform: rotate(-90deg);
 
     box-sizing: border-box;
-    width: 450px;
-    height: 70px;
+    max-width: 450px;
+    max-height: 70px;
     border-radius: 50%;
     border: 2px solid #232124;
 
@@ -284,6 +283,25 @@ nav ul {
     justify-content: center;
     column-count: 2;
     column-gap: 21px;
+}
+
+.work1 {
+    margin-top: 277px;
+}
+
+.image {
+    box-sizing: border-box;
+    border: 2px solid #232124;
+    border-radius: 79px;
+    max-width: 468px;
+    max-height: 476.1px;
+    margin-bottom: 22px;
+}
+
+#gallery_star {
+    color: #F4EBDC;
+    margin-bottom: 70px;
+    transform: rotate(91.713deg);
 }
 
 /* <!-- FAQs Section -->  */
