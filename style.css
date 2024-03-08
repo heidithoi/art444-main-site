@@ -208,12 +208,11 @@ nav ul {
     justify-content: center;
     align-items: center;
     column-count: 2;
-    margin-bottom: 52px;
 }
 
 .technical {
     font-family: 'Coconat';
-    font-size: 35px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -242,11 +241,12 @@ nav ul {
     justify-content: center;
     align-items: center;
     column-count: 2;
+    margin-top: 52px;
 }
 
 .personal {
     font-family: 'Coconat';
-    font-size: 35px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
@@ -254,10 +254,14 @@ nav ul {
     transform: rotate(-90deg);
 
     box-sizing: border-box;
-    width: 316px;
-    height: 84px;
+    width: 450px;
+    height: 70px;
     border-radius: 50%;
     border: 2px solid #232124;
+
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center;
 }
 
 .pskills {
@@ -265,7 +269,7 @@ nav ul {
     display: inline-flex;
     justify-content: center; 
     align-items: center;
-    margin-right: 40px;
+    margin-right: 80px;
     margin-bottom: 20px;
 }
 
@@ -283,7 +287,6 @@ nav ul {
 }
 
 /* <!-- FAQs Section -->  */
-
 .faqs {
     box-sizing: border-box;
     border-radius: 79px;
@@ -324,7 +327,6 @@ footer {
     line-height: 25px;
     display: flex;
     align-items: center;
-
     color: #F4EBDC;
 }
 
