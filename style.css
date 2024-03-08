@@ -203,11 +203,13 @@ nav ul {
     align-items: center;
 }
 
-/* .technical_section {
+.technical_section {
     display: flex;
     justify-content: center;
+    align-items: center;
     column-count: 2;
-} */
+    margin-bottom: 52px;
+}
 
 .technical {
     font-family: 'Coconat';
@@ -215,7 +217,8 @@ nav ul {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
-    /* transform: rotate(-90deg); */
+
+    transform: rotate(-90deg);
 }
 
 .tskills {
@@ -234,16 +237,36 @@ nav ul {
     margin-bottom: 20px;
 }
 
+.personal_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-count: 2;
+}
+
 .personal {
     font-family: 'Coconat';
     font-size: 35px;
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+   
+    transform: rotate(-90deg);
+
+    box-sizing: border-box;
+    width: 316px;
+    height: 84px;
+    border-radius: 50%;
+    border: 2px solid #232124;
 }
 
 .pskills {
-    display: block;
+    width: 160px;
+    display: inline-flex;
+    justify-content: center; 
+    align-items: center;
+    margin-right: 40px;
+    margin-bottom: 20px;
 }
 
 /* <!-- Gallery Section -->  */
@@ -297,7 +320,7 @@ footer {
     font-family: 'ClashDisplay';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 25px;
     display: flex;
     align-items: center;
