@@ -60,7 +60,6 @@ h2 {
     font-weight: 900;
     font-size: 80px;
     line-height: 138px;
-    text-align: center;
 }
 
 h3 {
@@ -83,7 +82,7 @@ p {
 
 .star {
     color: #E86D40;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 /* <!-- Main Navigation -->  */
@@ -134,8 +133,8 @@ nav ul {
     align-items: center;
     column-count: 2;
     column-gap: 50px;
-  }
-  
+}
+
 .column-content {
     font-family: 'Coconat';
     font-style: normal;
@@ -145,12 +144,11 @@ nav ul {
 
 .hello_mh {
     color: #6C7C49;
-
     transform: rotate(-89.96deg);
 }
 
 .right_mh {
-   text-align: left;
+    text-align: left;
 }
 
 .heidi_mh {
@@ -170,16 +168,17 @@ nav ul {
 /* <!-- About Section -->  */
 .column-container-about {
     display: flex;
-    justify-content: center;
     align-items: flex-end;
     column-count: 2;
-    column-gap: 36px;
+    column-gap: 50px;
 }
 
 .aimage {
     box-sizing: border-box;
     border: 2px solid #232124;
     border-radius: 79px;
+    max-width: 468px;
+    max-height: 623.7px;
 }
 
 .about_text {
@@ -304,10 +303,7 @@ nav ul {
     
     display: flex;
     flex-direction: row;
-}
-
-.faqs_star {
-    text-align: right;
+    justify-content: space-between;
 }
 
 /* <!-- Contact Section -->  */
