@@ -5,5 +5,9 @@
 
 /* MOBILE VIEW */
 @media only screen and (max-width: 390px) {
-  
+
+#faqs_star {
+    display: none;
+}
+
 }
