@@ -30,7 +30,6 @@ body {
     border: 0;
     font-size: 100%;
     font: inherit;
-    vertical-align: baseline;
     background-color: #F4EBDC;
     color: #232124
 }
@@ -114,12 +113,8 @@ nav ul {
 
 .home_button {
     box-sizing: border-box;
-
     width: 107px;
     height: 44px;
-    left: 208px;
-    top: 56px;
-
     border: 1px solid #232124;
     border-radius: 50%;
     display: flex;
@@ -202,11 +197,12 @@ nav ul {
     align-items: center;
 }
 
-.technical_section {
+.technical_section, .personal_section {
     display: flex;
     justify-content: center;
     align-items: center;
     column-count: 2;
+    margin-bottom: 52px;
 }
 
 .technical {
@@ -233,14 +229,6 @@ nav ul {
     align-items: center;
     margin-right: 20px;
     margin-bottom: 20px;
-}
-
-.personal_section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-count: 2;
-    margin-top: 52px;
 }
 
 .personal {
