@@ -164,6 +164,16 @@ nav ul {
 
     border: 2px solid #232124;
     border-radius: 50%;
+
+    position: relative;
+}
+
+#mh_star {
+    position: absolute;
+    transform: rotate(10.657deg);
+    top: 48%;
+    left: 49%;
+    z-index: 1
 }
 
 /* <!-- About Section -->  */
@@ -174,12 +184,20 @@ nav ul {
     column-gap: 50px;
 }
 
+#about_star {
+    position: absolute;
+    transform: rotate(-100.442deg);
+    z-index: 1;
+    left: 46%;
+}
+
 .aimage {
     box-sizing: border-box;
     border: 2px solid #232124;
     border-radius: 79px;
     max-width: 468px;
     max-height: 623.7px;
+    position: relative;
 }
 
 .about_text {
@@ -227,7 +245,7 @@ nav ul {
     display: inline-flex;
     justify-content: center; 
     align-items: center;
-    margin-right: 20px;
+    margin-right: 15px;
     margin-bottom: 20px;
 }
 
@@ -250,7 +268,7 @@ nav ul {
     width: 160px;
     display: inline-grid;
     margin-right: 70px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 /* <!-- Gallery Section -->  */
