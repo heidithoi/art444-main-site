@@ -128,6 +128,7 @@ nav ul {
 /* <!-- Main Header -->  */
 .header {
     background-color: #92A35B;
+    padding-right: 23%;
 }
 
 .column-container {
@@ -172,7 +173,7 @@ nav ul {
     position: absolute;
     transform: rotate(10.657deg);
     top: 48%;
-    left: 49%;
+    left: 37%;
     z-index: 1
 }
 
