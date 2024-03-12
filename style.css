@@ -35,7 +35,7 @@ body {
 }
 
 section {
-    padding: 60px 40px;
+    padding: 100px 50px;
 }
 
 .container {
@@ -160,7 +160,7 @@ nav ul {
     border: 2px solid #232124;
     border-radius: 50%;
     width: 150%;
-    height: 110%;
+    line-height: 200px;
 
     position: relative;
     left: -25%;
@@ -180,6 +180,7 @@ nav ul {
     align-items: flex-end;
     column-count: 2;
     column-gap: 50px;
+    margin: 0;
 }
 
 #about_star {
@@ -213,6 +214,13 @@ nav ul {
     align-items: center;
 }
 
+#skills_star {
+    transform: rotate(-30.398deg);
+    position: absolute;
+    right: 32%;
+    margin-top: 40px;
+}
+
 .technical_section, .personal_section {
     display: flex;
     justify-content: center;
@@ -221,7 +229,7 @@ nav ul {
     margin-bottom: 52px;
 }
 
-.technical {
+.technical, .personal {
     font-family: 'Coconat';
     font-size: 28px;
     font-style: normal;
@@ -248,14 +256,6 @@ nav ul {
 }
 
 .personal {
-    font-family: 'Coconat';
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-   
-    transform: rotate(-90deg);
-
     box-sizing: border-box;
     padding: 15px 30px;
     border-radius: 50%;
@@ -333,6 +333,10 @@ nav ul {
     width: 468px;
 
     background-color: transparent;
+}
+
+#message {
+    height: 320px;
 }
 
 /* <!-- Footer -->  */
