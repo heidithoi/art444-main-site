@@ -340,6 +340,28 @@ nav ul {
     height: 320px;
 }
 
+.button-primary {
+    font-family: 'ClashDisplay';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 55px;
+    color: #F4EBDC;
+
+    background: #232124;
+    border-radius: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 35px;
+}
+
+#contact_star {
+    position: absolute;
+    transform: rotate(-28.825deg);
+    right: 25%;
+    /* bottom: -807%; */
+}
+
 /* <!-- Footer -->  */
 footer {
     background-color: #232124;
