@@ -181,8 +181,8 @@ nav ul {
 .column-container-about {
     display: flex;
     align-items: flex-end;
-    column-count: 2;
-    column-gap: 50px;
+    justify-content: center;
+    gap: 50px;
     margin: 0;
 }
 
