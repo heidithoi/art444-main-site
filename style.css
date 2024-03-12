@@ -130,6 +130,10 @@ nav ul {
     border: 1px solid #F4EBDC;
 }
 
+.nav_links:hover {
+    color:#F4EBDC;
+}
+
 /* <!-- Main Header -->  */
 .header {
     background-color: #92A35B;
@@ -177,7 +181,6 @@ nav ul {
 #mh_star {
     position: absolute;
     transform: rotate(10.657deg);
-    top: 48%;
     left: 40%;
     z-index: 1
 }
@@ -363,11 +366,14 @@ nav ul {
     margin-top: 35px;
 }
 
+.button-primary:hover {
+    background-color: #6C7C49;
+}
+
 #contact_star {
     position: absolute;
     transform: rotate(-28.825deg);
     right: 25%;
-    /* bottom: -807%; */
 }
 
 /* <!-- Footer -->  */

@@ -1,14 +1,18 @@
 /* TABLET VIEW */
 @media only screen and (max-width:768px) {
+    
+    h2 {
+        font-size: 68px;
+    }
+    
+    h3 {
+        font-size: 21px;
+    }
 
 /* <!-- Main Navigation -->  */
 
 .hamburger-menu {
     display: block;
-}
-
-nav {
-    display: none;
 }
 
 }
