@@ -128,7 +128,7 @@ nav ul {
 /* <!-- Main Header -->  */
 .header {
     background-color: #92A35B;
-    padding-right: 23%;
+    padding-right: 20%;
 }
 
 .column-container {
@@ -173,7 +173,7 @@ nav ul {
     position: absolute;
     transform: rotate(10.657deg);
     top: 48%;
-    left: 37%;
+    left: 40%;
     z-index: 1
 }
 
@@ -262,6 +262,8 @@ nav ul {
     padding: 15px 30px;
     border-radius: 50%;
     border: 2px solid #232124;
+    position: relative;
+    left: -2%;
 }
 
 .pskills {
