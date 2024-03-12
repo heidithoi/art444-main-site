@@ -132,8 +132,6 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-count: 2;
-    column-gap: 50px;
 }
 
 .column-content {
@@ -159,13 +157,13 @@ nav ul {
 
     box-sizing: border-box;
 
-    width: 739.8px;
-    height: 203.4px;
-
     border: 2px solid #232124;
     border-radius: 50%;
+    width: 150%;
+    height: 110%;
 
     position: relative;
+    left: -25%;
 }
 
 #mh_star {
