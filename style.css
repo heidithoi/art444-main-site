@@ -125,6 +125,11 @@ nav ul {
     margin-right: 436px;
 }
 
+.home_button:hover {
+    color: #F4EBDC;
+    border: 1px solid #F4EBDC;
+}
+
 /* <!-- Main Header -->  */
 .header {
     background-color: #92A35B;
