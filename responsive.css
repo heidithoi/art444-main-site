@@ -16,7 +16,11 @@ p {
 /* <!-- Main Navigation -->  */
 
 .hamburger-menu {
+    background-color: #92A35B;
+    color: #232124;
     display: flex;
+    justify-content: flex-end;
+    padding-top: 35px;
 }
 
 #main_nav {
