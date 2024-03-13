@@ -24,6 +24,7 @@
     font-weight: 900; /* Bold */
 }
 
+
 body {
     margin: 0;
     padding: 0;
@@ -78,7 +79,7 @@ p {
     font-style: normal;
     font-weight: 400;
     font-size: 22.5px;
-    line-height: 31px;
+    line-height: normal;
     text-align: left;
     margin: 0;
 }

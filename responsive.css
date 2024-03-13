@@ -2,7 +2,8 @@
 @media only screen and (max-width:768px) {
     
 h2 {
-    font-size: 68px;
+    font-size: 54.4px;
+    margin-bottom: 40px;
 }
     
 h3 {
@@ -13,27 +14,99 @@ p {
     font-size: 17px;
 }
 
+.star {
+    font-size: 40px;
+}
+
 /* <!-- Main Navigation -->  */
 
 .hamburger-menu {
     background-color: #92A35B;
     color: #232124;
+   
     display: flex;
     justify-content: flex-end;
     padding-top: 35px;
+    padding-right: 50px;
 }
 
 #main_nav {
     display: none;
 }
 
+/* <!-- Main Header -->  */
+.column-content {
+    font-family: 'Coconat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+}
+
+/* <!-- About Section -->  */
+.aimage {
+    max-width: 339px;
+    max-height: 451px;
+}
+
+/* <!-- Skills Section -->  */
+#skills {
+    font-size: 19px;
+    line-height: normal;
+}
+
+.technical, .personal {
+    font-size: 21.6px;
+}
+
+.tskills {
+    width: 165px;
+    height: 48px;
+    margin-bottom: 15px;
+    margin-right: 0px;
+}
+
+.pskills {
+    width: 115px;
+    margin-right: 35px;
+    margin-bottom: 25px;
+}
+
+/* <!-- Gallery Section -->  */
+.gallery-column-container {
+    gap: 19px;
+}
+
+.image {
+    width: 305.1px;
+    height: 314.1px;
+}
+
+/* <!-- FAQs Section -->  */
+.faqs {
+    line-height: normal;
+}
+
+/* <!-- Contact Section -->  */
+
+/* <!-- Footer -->  */
+footer {
+    padding: 30px;
+}
+
+.footer {
+    gap: 200px;
+}
+
+.footer_star {
+    font-size: 17px;
+}
 }
 
 /* MOBILE VIEW */
 @media only screen and (max-width: 390px) {
 
 .column-container-about {
-        flex-direction: column;
+    flex-direction: column;
 }
 
 #faqs_star {
