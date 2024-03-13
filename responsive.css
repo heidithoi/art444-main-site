@@ -19,6 +19,10 @@ p {
     display: flex;
 }
 
+#main_nav {
+    display: none;
+}
+
 }
 
 /* MOBILE VIEW */
