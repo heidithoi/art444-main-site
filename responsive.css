@@ -1,24 +1,32 @@
 /* TABLET VIEW */
 @media only screen and (max-width:768px) {
     
-    h2 {
-        font-size: 68px;
-    }
+h2 {
+    font-size: 68px;
+}
     
-    h3 {
-        font-size: 21px;
-    }
+h3 {
+    font-size: 21px;
+}
+
+p {
+    font-size: 17px;
+}
 
 /* <!-- Main Navigation -->  */
 
 .hamburger-menu {
-    display: block;
+    display: flex;
 }
 
 }
 
 /* MOBILE VIEW */
 @media only screen and (max-width: 390px) {
+
+.column-container-about {
+        flex-direction: column;
+}
 
 #faqs_star {
     display: none;
