@@ -8,6 +8,7 @@ h2 {
     
 h3 {
     font-size: 21px;
+    line-height: normal;
 }
 
 p {
@@ -43,6 +44,10 @@ p {
 }
 
 /* <!-- About Section -->  */
+.column-container-about {
+    align-items: center;
+}
+
 .aimage {
     max-width: 339px;
     max-height: 451px;
@@ -87,6 +92,22 @@ p {
 }
 
 /* <!-- Contact Section -->  */
+#name, #email, #message {
+    font-size: 17.1px;
+    width: 342px;
+}
+
+#message {
+    height: 275px;
+}
+
+.button-primary {
+    font-size: 21px;
+    line-height: 45px;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 35px;
+}
 
 /* <!-- Footer -->  */
 footer {
