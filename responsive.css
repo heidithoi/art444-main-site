@@ -8,7 +8,6 @@ h2 {
     
 h3 {
     font-size: 21px;
-    line-height: normal;
 }
 
 p {
@@ -29,6 +28,7 @@ p {
     justify-content: flex-end;
     padding-top: 35px;
     padding-right: 50px;
+    padding-bottom: 100px;
 }
 
 #main_nav {
@@ -36,6 +36,16 @@ p {
 }
 
 /* <!-- Main Header -->  */
+/* .header {
+    overflow: hidden;
+} */
+
+.column-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 .column-content {
     font-family: 'Coconat';
     font-style: normal;
@@ -43,9 +53,32 @@ p {
     font-size: 72px;
 }
 
+.right_mh {
+    text-align: right;
+    padding-right: 75px;
+    padding-top: 50px;
+}
+
+.heidi_mh {
+    /* display: flex;
+    justify-content: center; 
+    align-items: center;
+
+    box-sizing: border-box;
+
+    border: 2px solid #232124;
+    border-radius: 50%;
+    width: 150%; */
+    line-height: 170px;
+/* 
+    position: relative;
+    left: -25%; */
+}
+
 /* <!-- About Section -->  */
 .column-container-about {
     align-items: center;
+    gap: 30px;
 }
 
 .aimage {
@@ -70,6 +103,15 @@ p {
     margin-right: 0px;
 }
 
+.personal {
+    box-sizing: border-box;
+    padding: 15px 30px;
+    border-radius: 50%;
+    border: 2px solid #232124;
+    position: relative;
+    left: -3.5%;
+}
+
 .pskills {
     width: 115px;
     margin-right: 35px;
@@ -78,12 +120,13 @@ p {
 
 /* <!-- Gallery Section -->  */
 .gallery-column-container {
-    gap: 19px;
+    gap: 13px;
 }
 
 .image {
     width: 305.1px;
     height: 314.1px;
+    margin-bottom: 13px;
 }
 
 /* <!-- FAQs Section -->  */
@@ -130,8 +173,28 @@ footer {
     flex-direction: column;
 }
 
+/* <!-- Skills Section -->  */
+.technical_section, .personal_section {
+    align-items: flex-start;
+}
+
+/* <!-- Gallery Section -->  */
+.gallery-column-container {
+    flex-direction: column-reverse;
+}
+
+/* <!-- FAQs Section -->  */
 #faqs_star {
     display: none;
+}
+
+.footer {
+    /* gap: 50px; */
+    font-size: 12.6px;
+}
+
+.footer_star {
+    font-size: 15px;
 }
 
 }

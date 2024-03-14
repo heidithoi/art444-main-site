@@ -123,7 +123,7 @@ nav ul {
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-right: 436px;
+    margin-right: 30vw;
 }
 
 .home_button:hover {
@@ -388,7 +388,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 377px;
+    gap: 39%;
 
     font-family: 'ClashDisplay';
     font-style: normal;
