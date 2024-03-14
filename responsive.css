@@ -36,9 +36,6 @@ p {
 }
 
 /* <!-- Main Header -->  */
-.header {
-    overflow-x: clip;
-}
 
 .column-container {
     display: flex;
@@ -47,9 +44,6 @@ p {
 }
 
 .column-content {
-    font-family: 'Coconat';
-    font-style: normal;
-    font-weight: 900;
     font-size: 72px;
 }
 
@@ -60,19 +54,12 @@ p {
 }
 
 .heidi_mh {
-    /* display: flex;
-    justify-content: center; 
-    align-items: center;
-
-    box-sizing: border-box;
-
-    border: 2px solid #232124;
-    border-radius: 50%;
-    width: 150%; */
     line-height: 170px;
-/* 
-    position: relative;
-    left: -25%; */
+}
+
+#mh_star {
+    left: 30%;
+    margin-top: 18px;
 }
 
 /* <!-- About Section -->  */
@@ -123,6 +110,10 @@ p {
     gap: 13px;
 }
 
+.work1 {
+    margin-top: 0;
+}
+
 .image {
     width: 305.1px;
     height: 314.1px;
@@ -132,6 +123,7 @@ p {
 /* <!-- FAQs Section -->  */
 .faqs {
     line-height: normal;
+    padding: 30px 40px;
 }
 
 /* <!-- Contact Section -->  */
@@ -158,7 +150,7 @@ footer {
 }
 
 .footer {
-    gap: 200px;
+    gap: 20%;
 }
 
 .footer_star {
@@ -168,11 +160,32 @@ footer {
 
 /* MOBILE VIEW */
 @media only screen and (max-width: 390px) {
-    .heidi_mh {
-        border: none;
-        text-decoration: underline;
-    }
+/* <!-- Main Header Section -->  */
+.column-container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.column-content {
+    font-size: 57.6px;
+}
+
+.hello_mh {
+   position: relative;
+   left: -40%;
+}
+
+.heidi_mh {
+    border: none;
+    text-decoration: underline;
+}
+
+#mh_star {
+    left: 80%;
+    margin-bottom: 0;
+}
+
+/* <!-- About Section -->  */
 .column-container-about {
     flex-direction: column;
 }
@@ -187,13 +200,15 @@ footer {
     flex-direction: column-reverse;
 }
 
+/* <!-- Contact Section -->  */
+
+
 /* <!-- FAQs Section -->  */
 #faqs_star {
     display: none;
 }
 
 .footer {
-    /* gap: 50px; */
     font-size: 12.6px;
 }
 

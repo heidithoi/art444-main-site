@@ -127,7 +127,7 @@ nav ul {
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin-right: 30vw;
+    margin-right: 20vw;
 }
 
 .home_button:hover {
@@ -143,6 +143,7 @@ nav ul {
 .header {
     background-color: #92A35B;
     padding-right: 20%;
+    overflow-x: clip;
 }
 
 .column-container {
@@ -392,7 +393,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 39%;
+    gap: 32%;
 
     font-family: 'ClashDisplay';
     font-style: normal;
