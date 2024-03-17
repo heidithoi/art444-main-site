@@ -1,10 +1,13 @@
 /* TABLET VIEW */
 @media only screen and (max-width:768px) {
-    
+
+section {
+    padding: 100px 40px;
+}
 
 h2 {
     font-size: 54.4px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
     
 h3 {
@@ -66,7 +69,11 @@ p {
 /* <!-- About Section -->  */
 .column-container-about {
     align-items: center;
-    gap: 30px;
+    gap: 20px;
+}
+
+#about_star {
+    left: 44%;
 }
 
 .aimage {
@@ -88,7 +95,7 @@ p {
     width: 165px;
     height: 48px;
     margin-bottom: 15px;
-    margin-right: 0px;
+    margin-right: 7px;
 }
 
 .personal {
