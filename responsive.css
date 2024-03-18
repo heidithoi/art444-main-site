@@ -23,7 +23,6 @@ p {
 }
 
 /* <!-- Main Navigation -->  */
-
 .hamburger-menu {
     background-color: #92A35B;
     color: #232124;
@@ -31,7 +30,7 @@ p {
     display: flex;
     justify-content: flex-end;
     padding-top: 35px;
-    padding-right: 50px;
+    padding-right: 55px;
     padding-bottom: 100px;
 }
 
@@ -40,10 +39,8 @@ p {
 }
 
 /* <!-- Main Header -->  */
-
 .column-container {
     display: flex;
-    justify-content: center;
     align-items: flex-start;
 }
 
@@ -87,6 +84,10 @@ p {
     line-height: normal;
 }
 
+#skills_star {
+    right: 25%;
+}
+
 .technical, .personal {
     font-size: 21.6px;
 }
@@ -95,7 +96,7 @@ p {
     width: 165px;
     height: 48px;
     margin-bottom: 15px;
-    margin-right: 7px;
+    margin-right: 8px;
 }
 
 .personal {
@@ -109,13 +110,13 @@ p {
 
 .pskills {
     width: 115px;
-    margin-right: 35px;
+    margin-right: 42px;
     margin-bottom: 25px;
 }
 
 /* <!-- Gallery Section -->  */
 .gallery-column-container {
-    gap: 13px;
+    gap: 15px;
 }
 
 .work1 {
@@ -125,13 +126,13 @@ p {
 .image {
     width: 305.1px;
     height: 314.1px;
-    margin-bottom: 13px;
+    margin-bottom: 15px;
 }
 
 /* <!-- FAQs Section -->  */
 .faqs {
     line-height: normal;
-    padding: 30px 40px;
+    padding: 40px 50px;
 }
 
 /* <!-- Contact Section -->  */
@@ -152,22 +153,36 @@ p {
     margin-top: 35px;
 }
 
+#contact_star {
+    right: 15%;
+}
+
 /* <!-- Footer -->  */
 footer {
     padding: 30px;
 }
 
 .footer {
-    gap: 20%;
+    gap: 27%;
 }
 
 .footer_star {
-    font-size: 17px;
+    font-size: 15px;
 }
 }
 
 /* MOBILE VIEW */
 @media only screen and (max-width: 390px) {
+
+h2 {
+    font-size: 46.8px;
+}
+
+/* <!-- Main Navigation -->  */
+.hamburger-menu {
+    padding-right: 30px;
+}
+
 /* <!-- Main Header Section -->  */
 .column-container {
     flex-wrap: wrap;
@@ -186,11 +201,12 @@ footer {
 .heidi_mh {
     border: none;
     text-decoration: underline;
+    line-height: 150px;
 }
 
 #mh_star {
-    left: 80%;
-    margin-bottom: 0;
+    left: 83%;
+    top: 47%;
 }
 
 /* <!-- About Section -->  */
@@ -198,9 +214,41 @@ footer {
     flex-direction: column;
 }
 
+#about_star {
+    left: 83%;
+}
+
 /* <!-- Skills Section -->  */
+
+#skills_star {
+    right: 7%;
+}
+
 .technical_section, .personal_section {
-    align-items: flex-start;
+    flex-direction: column;
+}
+
+.technical, .personal {
+    font-size: 21.6px;
+    transform: rotate(0deg);
+    margin-bottom: 30px;
+}
+
+.tskills {
+    width: 165px;
+    height: 48px;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+
+.personal {
+    left: 0%;
+}
+
+.pskills {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
 }
 
 /* <!-- Gallery Section -->  */
@@ -208,14 +256,21 @@ footer {
     flex-direction: column-reverse;
 }
 
-/* <!-- Contact Section -->  */
-
-
 /* <!-- FAQs Section -->  */
+.faqs {
+    padding: 30px 50px;
+}
+
 #faqs_star {
     display: none;
 }
 
+/* <!-- Contact Section -->  */
+#name, #email, #message {
+    width: 306px;
+}
+
+/* <!-- Footer Section -->  */
 .footer {
     font-size: 12.6px;
 }
