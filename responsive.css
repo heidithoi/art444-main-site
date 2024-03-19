@@ -138,7 +138,7 @@ p {
 /* <!-- Contact Section -->  */
 #name, #email, #message {
     font-size: 17.1px;
-    width: 342px;
+    width: 45vw;
     margin-bottom: 8px;
 }
 
@@ -268,7 +268,7 @@ h2 {
 }
 
 .image {
-    margin-bottom: 14px;
+    margin-bottom: 8px;
 }
 
 /* <!-- FAQs Section -->  */
@@ -282,7 +282,7 @@ h2 {
 
 /* <!-- Contact Section -->  */
 #name, #email, #message {
-    width: 306px;
+    width: 77vw;
     border: 2px solid #232124;
 }
 
