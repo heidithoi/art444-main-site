@@ -106,6 +106,10 @@ nav ul {
     display: none;
 }
 
+.mobile-menu-popout {
+    display: none;
+}
+
 #main_nav {
     background-color: #92A35B;
     font-family: 'ClashDisplay';
