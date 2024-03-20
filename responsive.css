@@ -23,10 +23,6 @@ p {
 }
 
 /* <!-- Main Navigation -->  */
-nav ul {
-
-}
-
 .hamburger-menu {
     background-color: transparent;
     color: #232124;
@@ -55,6 +51,7 @@ nav ul {
     position: fixed;
     top: 0;
     right: -280px;
+    /* right: 0; */
     background-color: #6C7C49;
     z-index: 998;
     padding: 80px 40px;
