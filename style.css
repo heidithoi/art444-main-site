@@ -102,7 +102,7 @@ nav ul {
     gap: 38px;
 }
 
-.hamburger-menu {
+.mobile-menu {
     display: none;
 }
 
@@ -191,8 +191,18 @@ nav ul {
 #mh_star {
     position: absolute;
     transform: rotate(10.657deg);
-    left: 40%;
-    z-index: 1
+    left: 39%;
+    z-index: 1;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg); 
+    }
 }
 
 /* <!-- About Section -->  */
@@ -355,6 +365,11 @@ nav ul {
     width: 468px;
 
     background-color: transparent;
+}
+
+#name:focus, #email:focus, #message:focus {
+    outline: none;
+    border: 3px solid #6C7C49;
 }
 
 #message {
