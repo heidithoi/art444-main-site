@@ -244,13 +244,13 @@ h2 {
 
 .hello_mh {
    position: absolute;
-   /* left: -27%; */
-   left: -100px;
+   left: -27%;
+   /* left: -100px; */
    top: 27.5%;
 }
 
 .right_mh {
-    right: 0;
+    right: 0%;
 }
 
 .heidi_mh {
