@@ -78,6 +78,7 @@ p {
 }
 
 /* <!-- Main Header -->  */
+
 .column-container {
     display: flex;
     align-items: flex-start;
@@ -105,7 +106,7 @@ p {
 
 #mh_star {
     left: 30%;
-    margin-top: 10px;
+    font-size: 50px;
 }
 
 /* <!-- About Section -->  */
@@ -255,7 +256,6 @@ h2 {
 #mh_star {
     left: 76%;
     top: 30%;
-    font-size: 50px;
 }
 
 /* <!-- About Section -->  */
