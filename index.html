@@ -9,9 +9,7 @@
 <body>
 
 <!-- Main Navigation --> 
-<div onclick="document.getElementById('mymenu').classList.toggle('open')" class="mobile-menu">
-  <img src="images/hamburgerbutton.svg" alt="menu" class="hamburger-icon">
-</div>
+<div onclick="myMenu()" class="mobile-menu" id="menuButton"></div>
 <header id="main_nav">
   <nav>
     <ul>
@@ -243,6 +241,13 @@
     </div>
   </div>
 </footer>
+
+<script>
+  function myMenu() {
+    document.getElementById('mymenu').classList.toggle('open');
+    document.getElementById('menuButton').classList.toggle('close');
+  }
+</script>
 
 <script src="script.js"></script>
 </body>

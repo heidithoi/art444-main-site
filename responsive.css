@@ -24,6 +24,9 @@ p {
 
 /* <!-- Main Navigation -->  */
 .mobile-menu {
+    background-image: url(images/hamburgerbutton.svg);
+    width: 38.68px;
+    height: 26.8px;
     background-color: transparent;
     padding-bottom: 100px;
     display: block;
@@ -31,6 +34,7 @@ p {
     top: 40px;
     right: 50px;
     z-index: 999;
+    background-repeat: no-repeat;
 }
 
 .mobile-menu-popout {
@@ -45,7 +49,6 @@ p {
     position: fixed;
     top: 0;
     right: -280px;
-    /* right: 0; */
     background-color: #6C7C49;
     z-index: 998;
     padding: 120px 40px;
@@ -62,6 +65,14 @@ p {
 
 .open {
     right: 0;
+}
+
+.close {
+    background-image: url(images/closeiconx.svg);
+    background-repeat: no-repeat;
+    width: 30.05px;
+    height: 27px;
+    margin-right: 5px;
 }
 
 .home_button {
