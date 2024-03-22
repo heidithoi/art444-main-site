@@ -9,7 +9,7 @@
 <body>
 
 <!-- Main Navigation --> 
-<div class="mobile-menu">
+<div onclick="document.getElementById('mymenu').classList.toggle('open')" class="mobile-menu">
   <img src="images/hamburgerbutton.svg" alt="menu" class="hamburger-icon">
 </div>
 <header id="main_nav">
@@ -38,7 +38,7 @@
 </header>
 
 
-<div class="mobile-menu-popout">
+<div id="mymenu" class="mobile-menu-popout">
   <ul>
     <div class="home_button">
       <a href="#header">HOME</a>

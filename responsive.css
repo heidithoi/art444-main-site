@@ -60,6 +60,10 @@ p {
     margin-bottom: 0;
 }
 
+.open {
+    right: 0;
+}
+
 .home_button {
     margin-left: 48px;
     margin-bottom: 38px;
