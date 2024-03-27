@@ -14,7 +14,7 @@
   <nav>
     <ul>
       <div class="home_button">
-        <a href="#header">HOME</a>
+        <a href="#main_nav">HOME</a>
       </div>
       <div class="nav_links">
         <a href="#about">ABOUT</a>
@@ -38,22 +38,22 @@
 
 <div id="mymenu" class="mobile-menu-popout">
   <ul>
-    <div class="home_button">
+    <div onclick="menuclose()" class="home_button">
       <a href="#header">HOME</a>
     </div>
-    <div class="nav_links">
+    <div onclick="menuclose()" class="nav_links">
       <a href="#about">ABOUT</a>
     </div>
-    <div class="nav_links">
+    <div onclick="menuclose()" class="nav_links">
       <a href="#skills">SKILLS</a>
     </div>
-    <div class="nav_links">
+    <div onclick="menuclose()" class="nav_links">
       <a href="#gallery">GALLERY</a>
     </div>
-    <div class="nav_links">
+    <div onclick="menuclose()" class="nav_links">
       <a href="#faqs">FAQS</a>
     </div>
-    <div class="nav_links">
+    <div onclick="menuclose()" class="nav_links">
       <a href="#contact">CONTACT</a>
     </div>
   </ul>
@@ -241,13 +241,6 @@
     </div>
   </div>
 </footer>
-
-<script>
-  function myMenu() {
-    document.getElementById('mymenu').classList.toggle('open');
-    document.getElementById('menuButton').classList.toggle('close');
-  }
-</script>
 
 <script src="script.js"></script>
 </body>
