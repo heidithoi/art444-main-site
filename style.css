@@ -56,6 +56,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+    color:#F4EBDC;
 }
 
 h1 {
@@ -139,12 +140,13 @@ nav ul {
 
 .home_button:hover {
     color: #F4EBDC;
+    text-decoration: underline;
     border: 1px solid #F4EBDC;
 }
 
-.nav_links:hover {
+/* .nav_links:hover {
     color:#F4EBDC;
-}
+} */
 
 /* <!-- Main Header -->  */
 .header {
