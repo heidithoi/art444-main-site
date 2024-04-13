@@ -139,7 +139,7 @@ nav ul {
     background-color: #6C7C49;
 }
 
-.home-button {
+.home_button {
     box-sizing: border-box;
     width: 107px;
     height: 44px;
@@ -151,21 +151,21 @@ nav ul {
     margin-right: 20vw;
 }
 
-.home-button-dark-mode {
+/* .home-button-dark-mode {
     border: 1px solid #F4EBDC; 
-}
+} */
 
-.home-button:hover {
+.home_button:hover {
     color: #F4EBDC;
     text-decoration: underline;
     border: 1px solid #F4EBDC;
 }
 
-.home-button-dark-mode:hover {
+/* .home-button-dark-mode:hover {
     color: #232124;
     text-decoration: underline;
     border: 1px solid #232124;
-}
+} */
 
 /* <!-- Main Header -->  */
 .header {
