@@ -151,9 +151,9 @@ nav ul {
     margin-right: 20vw;
 }
 
-/* .home-button-dark-mode {
+.home_button_dark_mode {
     border: 1px solid #F4EBDC; 
-} */
+}
 
 .home_button:hover {
     color: #F4EBDC;
@@ -161,11 +161,11 @@ nav ul {
     border: 1px solid #F4EBDC;
 }
 
-/* .home-button-dark-mode:hover {
+.home_button_dark_mode:hover {
     color: #232124;
     text-decoration: underline;
     border: 1px solid #232124;
-} */
+}
 
 /* <!-- Main Header -->  */
 .header {

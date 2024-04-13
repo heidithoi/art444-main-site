@@ -1,24 +1,24 @@
 function darkMode() {
     document.getElementsByTagName('body')[0].classList.toggle('body-dark-mode');
 
-    // document.getElementsByClassName('star')[0].classList.toggle('star-dark-mode');
-    // document.getElementsByClassName('star')[1].classList.toggle('star-dark-mode');
-    // document.getElementsByClassName('star')[2].classList.toggle('star-dark-mode');
-    // document.getElementsByClassName('star')[3].classList.toggle('star-dark-mode');
-    // document.getElementsByClassName('star')[4].classList.toggle('star-dark-mode');
-    // document.getElementsByClassName('star')[5].classList.toggle('star-dark-mode');
-    // document.getElementsByClassName('star')[6].classList.toggle('star-dark-mode');
-    // document.getElementsByClassName('star')[7].classList.toggle('star-dark-mode');
-    // document.getElementsByClassName('star')[8].classList.toggle('star-dark-mode');
+    document.getElementsByClassName('star')[0].classList.toggle('star-dark-mode');
+    document.getElementsByClassName('star')[1].classList.toggle('star-dark-mode');
+    document.getElementsByClassName('star')[2].classList.toggle('star-dark-mode');
+    document.getElementsByClassName('star')[3].classList.toggle('star-dark-mode');
+    document.getElementsByClassName('star')[4].classList.toggle('star-dark-mode');
+    document.getElementsByClassName('star')[5].classList.toggle('star-dark-mode');
+    document.getElementsByClassName('star')[6].classList.toggle('star-dark-mode');
+    document.getElementsByClassName('star')[7].classList.toggle('star-dark-mode');
+    document.getElementsByClassName('star')[8].classList.toggle('star-dark-mode');
 
     // const stars = document.querySelectorAll('.star');
     // stars.forEach(star => star.classList.toggle('star-dark-mode'));
 
     // document.getElementById('main-nav').classList.toggle('main-nav-dark-mode');
 
-    // // document.getElementsByClassName('home-button')[0].classList.toggle('home-button-dark-mode');
+    document.getElementsByClassName('home_button')[0].classList.toggle('home_button_dark_mode');
 
-    // // document.getElementsByClassName('home-button:hover')[0].classList.toggle('home-button-dark-mode:hover');
+    document.getElementsByClassName('home_button:hover')[0].classList.toggle('home_button_dark_mode:hover');
 
     // // document.getElementsByClassName('mobile-menu-popout')[0].classList.toggle('mobile-menu-popout-dark-mode');
 
