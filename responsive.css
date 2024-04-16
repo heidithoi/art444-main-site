@@ -57,6 +57,11 @@ p {
     transition: all 300ms;
 }
 
+.mobile-menu-popout-dark-mode {
+    color: #F4EBDC;
+    background-color: #92A35B;
+}
+
 .mobile-menu-popout ul {
     list-style: none;
     padding: 0;
