@@ -107,13 +107,13 @@ p {
 }
 
 .darkmode {
-    background-image: url(images/darkmodebutton.svg);
-    height: 26.8px;
+    background-image: url(images/darkmodeswitch.svg);
+    height: 30px;
     background-repeat: no-repeat;
 }
 
 .lightmode {
-    background-image: url(images/lightmode.svg);
+    background-image: url(images/lightmodeswitch.svg);
 }
 
 /* <!-- Main Navigation -->  */

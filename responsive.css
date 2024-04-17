@@ -22,6 +22,28 @@ p {
     font-size: 40px;
 }
 
+.darkmode {
+    width: 69px;
+    height: 30px;
+    padding-bottom: 100px;
+    display: block;
+    position: fixed;
+    top: 40px;
+    left: 70px;
+    z-index: 999;
+}
+
+.lightmode {
+    width: 69px;
+    height: 30px;
+    padding-bottom: 100px;
+    display: block;
+    position: fixed;
+    top: 40px;
+    left: 70px;
+    z-index: 999;
+}
+
 /* <!-- Main Navigation -->  */
 .mobile-menu {
     background-image: url(images/hamburgerbutton.svg);
@@ -109,7 +131,7 @@ p {
 .column-container {
     display: flex;
     align-items: flex-start;
-    padding-top: 135px;
+    padding-top: 190px;
 }
 
 .column-content {

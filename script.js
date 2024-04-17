@@ -34,9 +34,9 @@ function darkMode() {
     document.getElementsByClassName('button-primary')[0].classList.toggle('button-primary-dark-mode');
 }
 
-// function darkMode:hover() {
-//     document.getElementsByClassName('button-primary:hover')[0].classList.toggle('button-primary-dark-mode:hover');
-// }
+
+    // document.getElementsByClassName('button-primary:hover')[0].classList.toggle('button-primary-dark-mode:hover')
+
   
 function myMenu() {
     document.getElementById('mymenu').classList.toggle('open');
