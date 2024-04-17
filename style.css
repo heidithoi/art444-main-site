@@ -136,7 +136,7 @@ nav ul {
 }
 
 .main-nav-dark-mode {
-    background-color: #6C7C49;
+    background-color: #6C7C49 !important;
 }
 
 .home_button {
@@ -356,8 +356,8 @@ nav ul {
 }
 
 .gallery-dark-mode {
-    background-color: #CD4918;
-    border: 3px solid #F4EBDC;
+    background-color: #CD4918 !important;
+    border: 3px solid #F4EBDC !important;
 }
 
 .gallery-column-container {
@@ -391,7 +391,7 @@ nav ul {
 }
 
 .gallery-star-dark-mode {
-    color: #232124; 
+    color: #232124 !important; 
 }
 
 /* <!-- FAQs Section -->  */
@@ -430,6 +430,11 @@ nav ul {
     width: 468px;
 
     background-color: transparent;
+}
+
+.nem-darkmode {
+    color: #F4EBDC !important;
+    border: 3px solid #F4EBDC !important;
 }
 
 #name:focus, #email:focus, #message:focus {

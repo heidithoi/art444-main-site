@@ -16,10 +16,8 @@ function darkMode() {
         faqsDark[i].classList.toggle('faqs-dark-mode');
     }
     document.getElementsByTagName('body')[0].classList.toggle('body-dark-mode');
-    document.getElementsByClassName('home_button')[0].classList.toggle('home_button_dark_mode');
-    document.getElementsByClassName('home_button:hover')[0].classList.toggle('home_button_dark_mode:hover');
-
     document.getElementById('main-nav').classList.toggle('main-nav-dark-mode');
+    document.getElementsByClassName('home_button')[0].classList.toggle('home_button_dark_mode');
     document.getElementsByClassName('mobile-menu-popout')[0].classList.toggle('mobile-menu-popout-dark-mode');
     document.getElementsByClassName('header')[0].classList.toggle('header-dark-mode');
     document.getElementsByClassName('hello_mh')[0].classList.toggle('hello_mh_dark_mode');
@@ -28,9 +26,15 @@ function darkMode() {
     document.getElementsByClassName('personal')[0].classList.toggle('personal-dark-mode');
     document.getElementById('gallery').classList.toggle('gallery-dark-mode');
     document.getElementById('gallery_star').classList.toggle('gallery-star-dark-mode');
+    document.getElementById('name').classList.toggle('nem-darkmode');
+    document.getElementById('email').classList.toggle('nem-darkmode');
+    document.getElementById('message').classList.toggle('nem-darkmode');
     document.getElementsByClassName('button-primary')[0].classList.toggle('button-primary-dark-mode');
-    document.getElementsByClassName('button-primary:hover')[0].classList.toggle('button-primary-dark-mode:hover');
 }
+
+// function darkMode:hover() {
+//     document.getElementsByClassName('button-primary:hover')[0].classList.toggle('button-primary-dark-mode:hover');
+// }
   
 function myMenu() {
     document.getElementById('mymenu').classList.toggle('open');
