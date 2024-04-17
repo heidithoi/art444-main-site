@@ -16,6 +16,8 @@ function darkMode() {
         faqsDark[i].classList.toggle('faqs-dark-mode');
     }
     document.getElementsByTagName('body')[0].classList.toggle('body-dark-mode');
+    document.getElementsByClassName('darkmode')[0].classList.toggle('lightmode');
+    document.getElementsByClassName('mobile-menu')[0].classList.toggle('mobile-menu-dark-mode');
     document.getElementById('main-nav').classList.toggle('main-nav-dark-mode');
     document.getElementsByClassName('home_button')[0].classList.toggle('home_button_dark_mode');
     document.getElementsByClassName('mobile-menu-popout')[0].classList.toggle('mobile-menu-popout-dark-mode');

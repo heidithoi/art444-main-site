@@ -37,6 +37,10 @@ p {
     background-repeat: no-repeat;
 }
 
+.mobile-menu-dark-mode {
+    background-image: url(images/mobilemenudarkmode.svg);
+}
+
 .mobile-menu-popout {
     color: #232124;
     font-family: 'ClashDisplay';
@@ -80,9 +84,14 @@ p {
     margin-right: 5px;
 }
 
+.close-dark-mode {
+    background-image: url(images/closeiconx-darkmode.svg);
+}
+
 .home_button {
     margin-left: 48px;
     margin-bottom: 38px;
+    border: 1px solid #F4EBDC;
 }
 
 .nav_links {

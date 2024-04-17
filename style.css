@@ -106,6 +106,16 @@ p {
     color: #CD4918;
 }
 
+.darkmode {
+    background-image: url(images/darkmodebutton.svg);
+    height: 26.8px;
+    background-repeat: no-repeat;
+}
+
+.lightmode {
+    background-image: url(images/lightmode.svg);
+}
+
 /* <!-- Main Navigation -->  */
 nav ul {
     list-style: none;
