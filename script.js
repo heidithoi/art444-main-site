@@ -20,6 +20,7 @@ function darkMode() {
     document.getElementsByClassName('mobile-menu')[0].classList.toggle('mobile-menu-dark-mode');
     document.getElementById('main-nav').classList.toggle('main-nav-dark-mode');
     document.getElementsByClassName('home_button')[0].classList.toggle('home_button_dark_mode');
+    document.getElementsByClassName('home_button')[1].classList.toggle('home_button_dark_mode');
     document.getElementsByClassName('mobile-menu-popout')[0].classList.toggle('mobile-menu-popout-dark-mode');
     document.getElementsByClassName('header')[0].classList.toggle('header-dark-mode');
     document.getElementsByClassName('hello_mh')[0].classList.toggle('hello_mh_dark_mode');
@@ -32,12 +33,10 @@ function darkMode() {
     document.getElementById('email').classList.toggle('nem-darkmode');
     document.getElementById('message').classList.toggle('nem-darkmode');
     document.getElementsByClassName('button-primary')[0].classList.toggle('button-primary-dark-mode');
+    document.getElementsByClassName('button-primary:hover')[0].classList.toggle('button-primary-dark-mode:hover');
+    document.getElementsByTagName('a:hover')[0].classList.toggle('a-darkmode:hover');
 }
 
-
-    // document.getElementsByClassName('button-primary:hover')[0].classList.toggle('button-primary-dark-mode:hover')
-
-  
 function myMenu() {
     document.getElementById('mymenu').classList.toggle('open');
     document.getElementById('menuButton').classList.toggle('close');

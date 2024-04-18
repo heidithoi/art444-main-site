@@ -23,25 +23,9 @@ p {
 }
 
 .darkmode {
-    width: 69px;
-    height: 30px;
-    padding-bottom: 100px;
-    display: block;
-    position: fixed;
     top: 40px;
-    left: 70px;
-    z-index: 999;
-}
-
-.lightmode {
-    width: 69px;
-    height: 30px;
-    padding-bottom: 100px;
-    display: block;
-    position: fixed;
-    top: 40px;
-    left: 70px;
-    z-index: 999;
+    left: 50px;
+    position: absolute;
 }
 
 /* <!-- Main Navigation -->  */
@@ -113,7 +97,6 @@ p {
 .home_button {
     margin-left: 48px;
     margin-bottom: 38px;
-    border: 1px solid #F4EBDC;
 }
 
 .nav_links {
@@ -131,7 +114,7 @@ p {
 .column-container {
     display: flex;
     align-items: flex-start;
-    padding-top: 190px;
+    padding-top: 180px;
 }
 
 .column-content {
@@ -287,11 +270,15 @@ h2 {
     margin-left: 7px;
 }
 
+.darkmode {
+    left: 40px;
+}
+
 /* <!-- Main Header Section -->  */
 .column-container {
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 185px;
+    padding-top: 205px;
 }
 
 .column-content {
@@ -301,8 +288,7 @@ h2 {
 .hello_mh {
    position: absolute;
    left: -27%;
-   /* left: -100px; */
-   top: 27.5%;
+   top: 30%;
 }
 
 .right_mh {

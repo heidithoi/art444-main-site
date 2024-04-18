@@ -64,6 +64,11 @@ a:hover {
     color:#F4EBDC;
 }
 
+.a-darkmode:hover {
+    text-decoration: underline !important;
+    color:#232124 !important;
+}
+
 h1 {
     margin: 0;
 }
@@ -108,8 +113,14 @@ p {
 
 .darkmode {
     background-image: url(images/darkmodeswitch.svg);
+    width: 69px;
     height: 30px;
     background-repeat: no-repeat;
+    display: block;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    z-index: 999;
 }
 
 .lightmode {
