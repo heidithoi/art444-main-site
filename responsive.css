@@ -91,7 +91,11 @@ p {
 }
 
 .close-dark-mode {
-    background-image: url(images/closeiconx-darkmode.svg) !important;
+    background-image: url(images/closeiconx-darkmode.svg);
+    background-repeat: no-repeat;
+    width: 30.05px;
+    height: 27px;
+    margin-right: 5px;
 }
 
 .home_button {

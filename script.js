@@ -7,10 +7,10 @@ function darkMode() {
     for (let i = 0; i < starDark.length; i++) {
         starDark[i].classList.toggle('star-dark-mode');
     }
-    const closeDark = document.querySelectorAll('.close')
-    for (let i = 0; i < closeDark.length; i++) {
-        closeDark[i].classList.toggle('close-dark-mode');
-    }
+    // const closeIcons = document.querySelectorAll('.close');
+    // for (let i = 0; i < closeIcons.length; i++) {
+    //     closeIcons[i].classList.toggle('close-dark-mode');
+    // }
     const tskillsDark = document.querySelectorAll('.tskills')
     for (let i = 0; i < tskillsDark.length; i++) {
         tskillsDark[i].classList.toggle('tskills-dark-mode');
@@ -45,6 +45,7 @@ function darkMode() {
     document.getElementById('email').classList.toggle('nem-darkmode');
     document.getElementById('message').classList.toggle('nem-darkmode');
     document.getElementsByClassName('button-primary')[0].classList.toggle('button-primary-dark-mode');
+    document.getElementsByClassName('close')[0].classList.toggle('close-dark-mode');
 }
 
 function myMenu() {
