@@ -188,16 +188,6 @@ nav ul {
     border: 1px solid #232124;
 }
 
-/* .nav_links:hover {
-    text-decoration: underline;
-    color:#F4EBDC;
-}
-
-.nav_links_darkmode:hover {
-    text-decoration: underline;
-    color:#232124;
-} */
-
 /* <!-- Main Header -->  */
 .header {
     background-color: #92A35B;
@@ -537,6 +527,21 @@ footer {
     display: flex;
     align-items: center;
     color: #F4EBDC;
+}
+
+.footer-links {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-links-dark-mode {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-links-dark-mode:hover {
+    text-decoration: underline !important;
+    color:#F4EBDC !important;
 }
 
 .copyright {

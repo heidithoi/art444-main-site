@@ -91,7 +91,7 @@ p {
 }
 
 .close-dark-mode {
-    background-image: url(images/closeiconx-darkmode.svg);
+    background-image: url(images/closeiconx-darkmode.svg) !important;
 }
 
 .home_button {

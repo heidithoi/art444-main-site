@@ -7,6 +7,10 @@ function darkMode() {
     for (let i = 0; i < starDark.length; i++) {
         starDark[i].classList.toggle('star-dark-mode');
     }
+    const closeDark = document.querySelectorAll('.close')
+    for (let i = 0; i < closeDark.length; i++) {
+        closeDark[i].classList.toggle('close-dark-mode');
+    }
     const tskillsDark = document.querySelectorAll('.tskills')
     for (let i = 0; i < tskillsDark.length; i++) {
         tskillsDark[i].classList.toggle('tskills-dark-mode');
@@ -19,10 +23,13 @@ function darkMode() {
     for (let i = 0; i < faqsDark.length; i++) {
         faqsDark[i].classList.toggle('faqs-dark-mode');
     }
+    const footerlinksDark = document.querySelectorAll('.footer-links')
+    for (let i = 0; i < footerlinksDark.length; i++) {
+        footerlinksDark[i].classList.toggle('footer-links-dark-mode');
+    }
     document.getElementsByTagName('body')[0].classList.toggle('body-dark-mode');
     document.getElementsByClassName('darkmode')[0].classList.toggle('lightmode');
     document.getElementsByClassName('mobile-menu')[0].classList.toggle('mobile-menu-dark-mode');
-    // document.getElementsByClassName('close')[0].classList.toggle('close-dark-mode');
     document.getElementById('main-nav').classList.toggle('main-nav-dark-mode');
     document.getElementsByClassName('home_button')[0].classList.toggle('home_button_dark_mode');
     document.getElementsByClassName('home_button')[1].classList.toggle('home_button_dark_mode');
