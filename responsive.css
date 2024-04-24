@@ -214,7 +214,12 @@ p {
 /* <!-- FAQs Section -->  */
 .faqs {
     line-height: normal;
-    padding: 40px 50px;
+    padding: 10px 50px;
+    height: 85px;
+}
+
+.faq-open {
+    padding-bottom: 25px !important;
 }
 
 /* <!-- Contact Section -->  */
@@ -369,12 +374,17 @@ h2 {
 
 /* <!-- FAQs Section -->  */
 .faqs {
-    padding: 30px 50px;
+    padding: 15px 50px;
+    height: 140px;
 }
 
-/* #faqs_star {
+.faq-open {
+    padding-bottom: 35px !important;
+}
+
+#faqs_star {
     display: none;
-} */
+}
 
 /* <!-- Contact Section -->  */
 #name, #email, #message {

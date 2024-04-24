@@ -423,11 +423,19 @@ nav ul {
 
     margin-bottom: 15px;
 
-    padding: 40px 90px;
+    padding: 20px 90px;
     
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    height: 117px;
+    overflow: hidden;
+}
+
+.faq-open {
+    height: auto !important;
+    padding-bottom: 40px !important;
 }
 
 .faqs-dark-mode {

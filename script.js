@@ -1,3 +1,12 @@
+const faqToggle = document.querySelectorAll('.faqs')
+for (let i = 0; i < faqToggle.length; i++) {
+    faqToggle[i].addEventListener("click", function() { this.classList.toggle('faq-open') });
+}
+
+// function FAQToggle() {
+//     document.getElementsByClassName('faqs')[0].classList.toggle('faq-open');
+// }
+
 function darkMode() {
     const aDark = document.querySelectorAll('a')
     for (let i = 0; i < aDark.length; i++) {
