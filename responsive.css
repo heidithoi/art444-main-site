@@ -375,11 +375,11 @@ h2 {
 /* <!-- FAQs Section -->  */
 .faqs {
     padding: 15px 50px;
-    height: 140px;
+    height: 143px;
 }
 
 .faq-open {
-    padding-bottom: 35px !important;
+    padding-bottom: 30px !important;
 }
 
 #faqs_star {

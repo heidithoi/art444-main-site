@@ -3,10 +3,6 @@ for (let i = 0; i < faqToggle.length; i++) {
     faqToggle[i].addEventListener("click", function() { this.classList.toggle('faq-open') });
 }
 
-// function FAQToggle() {
-//     document.getElementsByClassName('faqs')[0].classList.toggle('faq-open');
-// }
-
 function darkMode() {
     const aDark = document.querySelectorAll('a')
     for (let i = 0; i < aDark.length; i++) {
@@ -16,9 +12,9 @@ function darkMode() {
     for (let i = 0; i < starDark.length; i++) {
         starDark[i].classList.toggle('star-dark-mode');
     }
-    // const closeIcons = document.querySelectorAll('.close');
-    // for (let i = 0; i < closeIcons.length; i++) {
-    //     closeIcons[i].classList.toggle('close-dark-mode');
+    // const closeDark = document.querySelectorAll('.close');
+    // for (let i = 0; i < closeDark.length; i++) {
+    //     closeDark[i].classList.toggle('close-dark-mode');
     // }
     const tskillsDark = document.querySelectorAll('.tskills')
     for (let i = 0; i < tskillsDark.length; i++) {
