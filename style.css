@@ -276,7 +276,7 @@ nav ul {
     transform: rotate(-100.442deg);
     z-index: 1;
     left: 46.25%;
-    animation: spin 1s linear infinite;
+    /* animation: spin 1s linear infinite; */
 }
 
 .aimage {
@@ -411,7 +411,7 @@ nav ul {
     color: #F4EBDC;
     margin-bottom: 70px;
     transform: rotate(91.713deg);
-    animation: spin 1s linear infinite;
+    /* animation: spin 1s linear infinite; */
 }
 
 .gallery-star-dark-mode {
