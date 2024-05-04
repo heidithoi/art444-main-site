@@ -401,6 +401,11 @@ nav ul {
     max-width: 468px;
     max-height: 476.1px;
     margin-bottom: 22px;
+    transition: opacity 0.3s ease;
+}
+
+.image:hover {
+    opacity: 0.8;
 }
 
 .lightbox-container {
