@@ -276,6 +276,7 @@ nav ul {
     transform: rotate(-100.442deg);
     z-index: 1;
     left: 46.25%;
+    animation: spin 1s linear infinite;
 }
 
 .aimage {
@@ -310,6 +311,7 @@ nav ul {
     transform: rotate(-30.398deg);
     position: absolute;
     right: 32%;
+    animation: spin 1s linear infinite;
 }
 
 .technical_section, .personal_section {
@@ -409,6 +411,7 @@ nav ul {
     color: #F4EBDC;
     margin-bottom: 70px;
     transform: rotate(91.713deg);
+    animation: spin 1s linear infinite;
 }
 
 .gallery-star-dark-mode {
@@ -512,6 +515,7 @@ nav ul {
     position: absolute;
     transform: rotate(-28.825deg);
     right: 25%;
+    animation: spin 1s linear infinite;
 }
 
 /* <!-- Footer -->  */
