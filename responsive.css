@@ -372,6 +372,10 @@ h2 {
     margin-bottom: 8px;
 }
 
+.lightbox-content {
+    margin-top: 235px;
+}
+
 /* <!-- FAQs Section -->  */
 .faqs {
     padding: 15px 50px;

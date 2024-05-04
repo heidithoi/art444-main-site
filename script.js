@@ -3,6 +3,21 @@ for (let i = 0; i < faqToggle.length; i++) {
     faqToggle[i].addEventListener("click", function() { this.classList.toggle('faq-open') });
 }
 
+const images = document.querySelectorAll('.image');
+const lightboxContainer = document.querySelector('.lightbox-container');
+const lightboxContent = document.querySelector('.lightbox-content');
+
+images.forEach(image => {
+    image.addEventListener('click', function() {
+        lightboxContent.src = this.src;
+        lightboxContainer.style.display = 'block';
+    });
+});
+
+document.querySelector('.close-light').addEventListener('click', function() {
+    lightboxContainer.style.display = 'none';
+});
+
 function darkMode() {
     const aDark = document.querySelectorAll('a')
     for (let i = 0; i < aDark.length; i++) {

@@ -403,6 +403,35 @@ nav ul {
     margin-bottom: 22px;
 }
 
+.lightbox-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    text-align: center;
+}
+
+.close-light {
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.lightbox-content {
+    max-width: 90%;
+    max-height: 90%;
+    margin: auto;
+    display: block;
+    margin-top: 150px;
+}
+
 .image-dark-mode {
     border: 2px solid #F4EBDC;
 }
@@ -411,7 +440,6 @@ nav ul {
     color: #F4EBDC;
     margin-bottom: 70px;
     transform: rotate(91.713deg);
-    /* animation: spin 1s linear infinite; */
 }
 
 .gallery-star-dark-mode {
